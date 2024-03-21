@@ -1,20 +1,19 @@
 # Reddit Clone App on Kubernetes with Ingress
 This project demonstrates how to deploy a Reddit clone app on Kubernetes with Ingress and expose it to the world using Minikube as the cluster.
-Below is an overview of the architecture of this Reddit Clone App running on Kubernetes with Ingress.
+Below is the architecture of this Reddit Clone App running on Kubernetes with Ingress.
 ![Architecture Diagram](https://github.com/LondheShubham153/reddit-clone-k8s-ingress/assets/71492927/e1eec5f2-1983-445b-8966-e9acfdea7f8e)
 
-## Prerequisites
+## Tools Required
 Before you begin, you should have the following tools installed on your local machine: 
 
 - Docker
-- Minikube cluster ( Running )
+- Minikube cluster
 - kubectl
 - Git
 
-You can install Prerequisites by doing these steps. [click here & complete all steps one by one]().
+# How to install the tools into machine(ubuntu)
 
-
-## Installation
+# Installation
 Follow these steps to install and run the Reddit clone app on your local machine:
 
 1) Clone this repository to your local machine: `git clone https://github.com/LondheShubham153/reddit-clone-k8s-ingress.git`
@@ -30,7 +29,7 @@ Follow these steps to install and run the Reddit clone app on your local machine
 ## Test Ingress DNS for the app:
 - Test Ingress by typing this command: `curl http://domain.com/test`
 
-## Cluster Monitoring using Prometheus & Grafana
+# Monitoring using Prometheus & Grafana
 
 Key Components :
 
@@ -86,16 +85,10 @@ Select ‘Prometheus’ as the endpoint under prometheus data sources drop down.
 Click ‘Import’.
 ```
 
-
-### Images For reference
-
-
-
-<img width="1396" alt="image" src="https://user-images.githubusercontent.com/110477025/227587553-7163c709-85cf-4e23-a00b-823b08758859.png">
+######DONE####
 
 
 
-<img width="1400" alt="image" src="https://user-images.githubusercontent.com/110477025/227587788-06ce33dd-3a09-4f36-9bbd-aff0925615ed.png">
 
 
 
